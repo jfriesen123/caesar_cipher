@@ -27,7 +27,7 @@ while go_again:
 
     caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
 
-    continue_cipher = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n" )
+    continue_cipher = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n" ).lower()
 
     if continue_cipher == 'no':
         print("Goodbye!")
